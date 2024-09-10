@@ -68,13 +68,5 @@ Inline code is for single numbers/short text:
 
 We have `32` cars.
 
-```{r}
-# use a function without loading the package:
-# package::function
-usethis::use_git_config(
-  user.name = "DanielWendisch", # <-- change to your name
-  user.email = "daniel.wendisch@gmail.com", # <-- and your email
-  init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
-  
-```
+
 
