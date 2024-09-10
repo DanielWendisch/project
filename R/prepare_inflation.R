@@ -25,7 +25,7 @@ inflation <- inflation_raw %>%
       `55-64` = "5",
       `65+`   = "6",
       `NA`    = "7",
-      `NA`    = "8"E
+      `NA`    = "8"
     ),
     sex = fct_recode(
       as.factor(sex),
